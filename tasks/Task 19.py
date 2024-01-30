@@ -4,5 +4,5 @@ def bottles_of_beer(num_bottles):
         print(f"Take one down, pass it around, {i - 1} bottles of beer on the wall.")
         print()
 
-# Generate all verses starting from 99 bottles
+
 bottles_of_beer(99)
