@@ -1,0 +1,9 @@
+def generate(o, pc):
+    result = ""
+    for _ in range(o):
+        result += pc
+    return result
+
+
+result_string = generate(5, "z")
+print(result_string)

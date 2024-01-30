@@ -1,0 +1,15 @@
+def max_in_list(a):
+    if not a:
+        return None  
+    
+    max = a[0]
+    for numer in a:
+        if numer > max:
+            max = numer
+
+    return max
+
+
+numbers_list = [1, 30, 12, 123, 2137, 4444]
+result = max_in_list(numbers_list)
+print(result)
